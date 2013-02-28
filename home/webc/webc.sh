@@ -101,6 +101,24 @@ do
 
 			;;
 
+		locale=*)
+
+			options=$( /bin/busybox httpd -d ${x#locale=} )
+
+			if test "$options" = "ko"
+			then
+		
+				# For fcitx
+				export GTK_IM_MODULE=fcitx
+				export QT_IM_MODULE=fcitx
+				export XMODIFIERS=@im=fcitx
+
+
+				logs "Korean"
+				hash fcitx && fcitx &
+			fi
+			;;
+
 		xrandr=*)
 
 			xoptions=$( /bin/busybox httpd -d ${x#xrandr=} )
@@ -180,7 +198,7 @@ do
 
 		if ! cmdline_has noclean
 		then
-		for d in /home/webc/{.mozilla,.adobe,.macromedia,Downloads} /tmp/webc
+		for d in /home/webc/{.mozilla,.adobe,.config,.macromedia,Downloads} /tmp/webc
 		do
 			rm -rf $d
 		done
