@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: fcitx-config
+Description: Fcitx Config Library
+Version: 4.2.7
+Requires: fcitx-utils
+Cflags: -I/usr/include
+Libs: -L/usr/lib -lfcitx-config

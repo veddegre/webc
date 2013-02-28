@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: fcitx
+Description: Fcitx - Free Chinese Input Toy of X
+Version: 4.2.7
+Requires: fcitx-config
+Cflags: -I/usr/include
+Libs: -L/usr/lib -lfcitx-core

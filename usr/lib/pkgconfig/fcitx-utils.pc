@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: fcitx-utils
+Description: Fcitx Utils Library
+Version: 4.2.7
+Cflags: -I/usr/include
+Libs: -L/usr/lib -lfcitx-utils
