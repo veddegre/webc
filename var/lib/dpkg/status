@@ -9128,6 +9128,31 @@ Description: handheld device font with extensive style and language support
  optimal quality for screen text.
 Homepage: http://www.droidfonts.com/
 
+Package: dbus-x11
+Status: install ok installed
+Priority: optional
+Section: x11
+Installed-Size: 132
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Multi-Arch: foreign
+Source: dbus
+Version: 1.6.8-1
+Depends: libc6 (>= 2.4), libx11-6, dbus
+Breaks: x11-common (<< 1:7.5+4)
+Conffiles:
+ /etc/X11/Xsession.d/75dbus_dbus-launch 75fd37a1791965dab99121373d918516
+Description: simple interprocess messaging system (X11 deps)
+ D-Bus is a message bus, used for sending messages between applications.
+ Conceptually, it fits somewhere in between raw sockets and CORBA in
+ terms of complexity.
+ .
+ This package contains the dbus-launch utility which is necessary for
+ packages using a D-Bus session bus.
+ .
+ See the dbus description for more information about D-Bus in general.
+Homepage: http://dbus.freedesktop.org/
+
 Package: xserver-xorg-video-mga
 Status: install ok installed
 Priority: optional
