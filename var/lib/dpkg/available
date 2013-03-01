@@ -13025,6 +13025,27 @@ Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
  installed.
 Homepage: http://ipw2100.sourceforge.net/firmware.php, http://ipw2200.sourceforge.net/firmware.php
 
+Package: libgtk2.0-bin
+Priority: optional
+Section: misc
+Installed-Size: 520
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Multi-Arch: foreign
+Source: gtk+2.0
+Version: 2.24.10-2
+Depends: libgtk2.0-0 (= 2.24.10-2), libgtk2.0-common
+Size: 476766
+Description: programs for the GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the utilities which are used by the libraries
+ and other packages.
+Homepage: http://www.gtk.org/
+
 Package: libxcb-shape0
 Priority: optional
 Section: libs
@@ -14214,14 +14235,15 @@ Homepage: http://www.nvidia.com
 Package: ca-certificates
 Priority: optional
 Section: misc
-Installed-Size: 392
+Installed-Size: 329
 Maintainer: Michael Shuler <michael@pbandjelly.org>
 Architecture: all
 Multi-Arch: foreign
-Version: 20120623
+Version: 20130119
 Depends: openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0
+Breaks: ca-certificates-java (<< 20121112+nmu1)
 Enhances: openssl
-Size: 183022
+Size: 185428
 Description: Common CA certificates
  This package includes PEM files of CA certificates to allow SSL-based
  applications to check for the authenticity of SSL connections.
