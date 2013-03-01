@@ -2,6 +2,8 @@
 # Automatically generated file, do not edit
 # Created by /usr/lib/i386-linux-gnu/libgtk2.0-0/gtk-query-immodules-2.0 from gtk+-2.24.10
 #
+# ModulesPath = /root/.gtk-2.0/2.10.0/i486-pc-linux-gnu/immodules:/root/.gtk-2.0/2.10.0/immodules:/root/.gtk-2.0/i486-pc-linux-gnu/immodules:/root/.gtk-2.0/immodules:/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/i486-pc-linux-gnu/immodules:/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules:/usr/lib/i386-linux-gnu/gtk-2.0/i486-pc-linux-gnu/immodules:/usr/lib/i386-linux-gnu/gtk-2.0/immodules:/usr/lib/gtk-2.0/2.10.0/i486-pc-linux-gnu/immodules:/usr/lib/gtk-2.0/2.10.0/immodules:/usr/lib/gtk-2.0/i486-pc-linux-gnu/immodules:/usr/lib/gtk-2.0/immodules
+#
 "/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-viqr.so" 
 "viqr" "Vietnamese (VIQR)" "gtk20" "/usr/share/locale" "" 
 
@@ -22,6 +24,9 @@
 
 "/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-thai.so" 
 "thai" "Thai-Lao" "gtk20" "/usr/share/locale" "lo:th" 
+
+"/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-fcitx.so" 
+"fcitx" "Fcitx (Flexible Input Method Framework)" "fcitx" "/usr/share/locale" "ja:ko:zh:*" 
 
 "/usr/lib/i386-linux-gnu/gtk-2.0/2.10.0/immodules/im-ti-et.so" 
 "ti_et" "Tigrigna-Ethiopian (EZ+)" "gtk20" "/usr/share/locale" "ti" 
