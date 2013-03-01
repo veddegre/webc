@@ -1052,6 +1052,26 @@ Description: Compression and decompression in the LZMA format - command line uti
  familiar gzip-like interface.
 Homepage: http://www.7-zip.org/sdk.html
 
+Package: libhangul-data
+Priority: optional
+Section: libs
+Installed-Size: 6365
+Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: libhangul
+Version: 0.1.0-2
+Replaces: libhangul0-data
+Conflicts: libhangul0-data
+Size: 2435182
+Description: Hangul keyboard input library - data
+ This library implements Hangul keyboard input with various types of
+ Korean keyboards.  It is intended to be a base library of Korean
+ input methods on multiple platforms.
+ .
+ This package contains the architecture independent data.
+Homepage: http://kldp.net/projects/hangul
+
 Package: libuuid1
 Priority: required
 Section: libs
@@ -14546,6 +14566,26 @@ Description: GNU readline and history libraries, common files
  .
  The GNU history library provides a consistent user interface for
  recalling lines of previously typed input.
+
+Package: libhangul1
+Priority: optional
+Section: libs
+Installed-Size: 111
+Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
+Architecture: i386
+Multi-Arch: same
+Source: libhangul
+Version: 0.1.0-2
+Depends: libhangul-data (>= 0.1.0-2), libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Size: 45676
+Description: Hangul keyboard input library - runtime
+ This library implements Hangul keyboard input with various types of
+ Korean keyboards.  It is intended to be a base library of Korean
+ input methods on multiple platforms.
+ .
+ This package contains the shared library and the runtime data.
+Homepage: http://kldp.net/projects/hangul
 
 Package: linux-sound-base
 Priority: optional
