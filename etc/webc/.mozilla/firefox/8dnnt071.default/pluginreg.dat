@@ -1,0 +1,29 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.16:$
+Arch:x86-gcc3:$
+
+[PLUGINS]
+libflashplayer.so:$
+/usr/lib/mozilla/plugins/libflashplayer.so:$
+11,2,202,297:$
+1377780245000:0:0:$
+Shockwave Flash 11.2 r202:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+mozplugger.so:$
+/usr/lib/mozilla/plugins/mozplugger.so:$
+1.14.5:$
+1377780245000:0:0:$
+MozPlugger version 1.14.5, maintained by Louis Bavoil and Peter Leese, a fork of plugger written by Fredrik H&uuml;binette.<br>For documentation on how to configure mozplugger, check the man page. (type <tt>man&nbsp;mozplugger</tt>) <table>  <tr><td>Configuration file:</td><td>/etc/mozpluggerrc</td></tr>  <tr><td>Helper binary:</td><td>mozplugger-helper</td></tr>  <tr><td>Controller binary:</td><td>mozplugger-controller</td></tr>  <tr><td>Link launcher binary:</td><td>mozplugger-linker</td></tr>  </table> <br clear=all>:$
+MozPlugger 1.14.5 handles QuickTime and Windows Media Player Plugin:$
+4
+0:application/pdf:PDF file:pdf:$
+1:application/x-pdf:PDF file:pdf:$
+2:text/pdf:PDF file:pdf:$
+3:text/x-pdf:PDF file:pdf:$
+
+[INVALID]

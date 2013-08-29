@@ -184,6 +184,7 @@ do
 		do
 			rm -rf $d
 		done
+		cp -a /etc/webc/.mozilla /home/webc/
 		fi
 
 		if cmdline_has noptirun || ! pidof bumblebeed
